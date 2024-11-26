@@ -2,7 +2,6 @@
 The repository VariantsMetrics provides two R scripts (VariantsMetricsReference:1.0.R or VariantsMetricsWorkflows:1.0.R) to compute metrics (i.e. TP, TN, FP, FN, recall, precision, specificity, accuracy and Fscore) comparing genotypes ('undetected' stands for 'undetected genotype' and 'missing' stands for 'missing data') from expected (i.e. reference file or first workflow file) and predicted (i.e. workflow file or second workflow file) variants (i.e. SNP and InDels).
 # Dependencies
 The R scripts VariantsMetricsReference:1.0.R or VariantsMetricsWorkflows:1.0.R were prepared and tested with the R version 4.4.0 and Ubuntu 20.04 LTS Focal Fossa.
-- R version 4.3.0
 - require(remotes) # version 2.5.0
 - library(argparse) # version 2.2.3
 - the argparse library requires a sufficient Python binary (i.e. python3.12)
