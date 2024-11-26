@@ -53,16 +53,15 @@ POS	GENOTYPE
 ## input_Workflow_Variants.tsv
 ```
 POS	S1239.014	S1339.020	S1339.010	S1442.017
-254	AAA	        AAA	        AAA	        AAA
-653	G	        T              G               T
-5012	G	        undetected	G	        undetected
-5012		        undetected	missing	undetected
-7589		        C	        missing	C
-25014	G	               	G	        missing
-35124	undetected      -      	undetected	-
-43000		               	missing	missing
+254     AAA             AAA            AAA            AAA
+653     G               T              G              T
+748     G               undetected     G              undetected
+5012                    undetected     missing        undetected
+7589                    C              missing        C
+25014   G                              G              missing
+35124   undetected      -              undetected     -
+43000                                  missing        missing
 45000	undetected	undetected	undetected	undetected
-47000	undetected	undetected	undetected	undetected
 47000	undetected	undetected	undetected	undetected
 ```
 ## input_First_Workflow_Variants.tsv
@@ -79,17 +78,17 @@ POS	S1239.014	S1442.017	S1339.020	S1339.010
 ```
 ## input_Second_Workflow_Variants.tsv
 ```
-POS	S1239.014	S1339.020	S1339.010	S1442.017
-254	AAA	        AAA	        AAA	        AAA
-653	G	        T	        G	        T
-748	G	        undetected	G	        undetected
-5012		        undetected	missing	undetected
-7589		        C	        missing	C
-25014	G	        	        G	        missing
-35124	undetected	-	        undetected	-
-43000		        	        missing	missing
-45000	undetected	undetected	undetected	undetected
-47000	undetected	undetected	undetected	undetected
+POS     S1239.014	S1339.020	S1339.010	S1442.017
+254     AAA            AAA             AAA            AAA
+653     G              T               G              T
+748     G              undetected      G              undetected
+5012                   undetected      missing        undetected
+7589                   C               missing        C
+25014   G                              G              missing
+35124   undetected     -               undetected     -
+43000                                  missing	missing
+45000   undetected     undetected      undetected     undetected
+47000   undetected     undetected      undetected     undetected
 ```
 # Usage
 ### VariantsMetricsReference:1.0.R
