@@ -9,9 +9,11 @@ The R scripts VariantsMetricsReference:1.0.R or VariantsMetricsWorkflows:1.0.R w
 # Explaination
 ## Glossary
 ```
+MD stands for missing data
 MDr stands for missing data in the reference
 MDw stands for missing data in the workflow
-MD stands for missing data in the reference and/or workflow
+MDw1 stands for missing data in the first workflow
+MDw2 stands for missing data in the second workflow
 TP stands for true positive
 TN stands for true negative
 FP stands for false positive
