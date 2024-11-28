@@ -175,14 +175,10 @@ cd VariantsMetrics
 ## Launch with R script
 ### VariantsMetricsReference:1.0.R
 ```
-git clone https://github.com/Nicolas-Radomski/VariantsMetrics.git
-cd VariantsMetrics
 Rscript VariantsMetricsReference:1.0.R -r input_Reference_Variants.tsv -w input_Workflow_Variants.tsv -g 50000 -o output_Reference_
 ```
 ### VariantsMetricsWorkflows:1.0.R
 ```
-git clone https://github.com/Nicolas-Radomski/VariantsMetrics.git
-cd VariantsMetrics
 Rscript VariantsMetricsWorkflows:1.0.R -w1 input_First_Workflow_Variants.tsv -w2 input_Second_Workflow_Variants.tsv -g 50000 -o output_Workflows_
 ```
 ## Launch with Docker
