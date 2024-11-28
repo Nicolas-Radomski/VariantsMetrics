@@ -95,7 +95,7 @@ POS     S1239.014	S1339.020	S1339.010	S1442.017
 # Usage
 ### VariantsMetricsReference:1.0.R
 ```
-usage: /context-VariantsMetricsReference/VariantsMetricsReference:1.0.R
+usage: VariantsMetricsReference:1.0.R
        [-h] -r CHARACTERS -w CHARACTERS -g INTEGER [-o CHARACTERS]
        [-b LOGICAL]
 
@@ -130,7 +130,7 @@ options:
 ```
 ### VariantsMetricsWorkflows:1.0.R
 ```
-usage: /context-VariantsMetricsWorkflows/VariantsMetricsWorkflows:1.0.R
+usage: VariantsMetricsWorkflows:1.0.R
        [-h] -w1 CHARACTERS -w2 CHARACTERS -g INTEGER [-o CHARACTERS]
        [-b LOGICAL]
 
