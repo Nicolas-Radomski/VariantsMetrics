@@ -4,7 +4,7 @@ The repository VariantsMetrics provides two R scripts (VariantsMetricsReference:
 The R scripts VariantsMetricsReference:1.0.R and VariantsMetricsWorkflows:1.0.R were prepared and tested with the R version 4.4.0 and Ubuntu 20.04 LTS Focal Fossa.
 - require(remotes) # version 2.5.0
 - library(argparse) # version 2.2.3
-- the argparse library requires a sufficient Python binary (i.e. python3.12)
+- the argparse library requires a sufficient Python binary (e.g. python3.12)
 # Explainations
 ## Glossary
 ```
