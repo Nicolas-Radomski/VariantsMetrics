@@ -192,7 +192,7 @@ docker pull nicolasradomski/variantsmetricsworkflows:1.0
 docker run --rm --name nicolas -u $(id -u):$(id -g) -v $(pwd):/wd nicolasradomski/variantsmetricsworkflows:1.0 -w1 input_First_Workflow_Variants.tsv -w2 input_Second_Workflow_Variants.tsv -g 50000 -o output_Workflows_DockerHub_
 ```
 # Expected output
-## VariantsMetricsReference:1.0.R
+### VariantsMetricsReference:1.0.R
 ```
   samples MDr MDw MD TP    TN FP FN  recall precision  specificity accuracy  Fscore
 S1239.014   3   3  5  1 49991  2  1 0.50000   0.33333      0.99996  0.99994 0.40000
