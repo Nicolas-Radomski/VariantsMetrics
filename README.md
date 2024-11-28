@@ -5,7 +5,7 @@ The R scripts VariantsMetricsReference:1.0.R and VariantsMetricsWorkflows:1.0.R 
 - require(remotes) # version 2.5.0
 - library(argparse) # version 2.2.3
 - the argparse library requires a sufficient Python binary (i.e. python3.12)
-# Explaination
+# Explainations
 ## Glossary
 ```
 MD stands for missing data
