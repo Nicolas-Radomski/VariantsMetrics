@@ -167,7 +167,7 @@ options:
                         default False]
 ```
 # Usage
-## Unpack GitHub repository
+## Import the GitHub repository
 ```
 git clone https://github.com/Nicolas-Radomski/VariantsMetrics.git
 cd VariantsMetrics
