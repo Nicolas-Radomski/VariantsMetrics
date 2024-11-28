@@ -172,6 +172,10 @@ options:
 git clone https://github.com/Nicolas-Radomski/VariantsMetrics.git
 cd VariantsMetrics
 ```
+## Import the Docker image
+```
+docker pull nicolasradomski/variantsmetricsreference:1.0
+```
 ## Launch with R script
 ### VariantsMetricsReference:1.0.R
 ```
@@ -184,12 +188,10 @@ Rscript VariantsMetricsWorkflows:1.0.R -w1 input_First_Workflow_Variants.tsv -w2
 ## Launch with Docker
 ### VariantsMetricsReference:1.0.R
 ```
-docker pull nicolasradomski/variantsmetricsreference:1.0
 docker run --rm --name nicolas -u $(id -u):$(id -g) -v $(pwd):/wd nicolasradomski/variantsmetricsreference:1.0 -r input_Reference_Variants.tsv -w input_Workflow_Variants.tsv -g 50000 -o output_Reference_DockerHub_
 ```
 ### VariantsMetricsWorkflows:1.0.R
 ```
-docker pull nicolasradomski/variantsmetricsworkflows:1.0
 docker run --rm --name nicolas -u $(id -u):$(id -g) -v $(pwd):/wd nicolasradomski/variantsmetricsworkflows:1.0 -w1 input_First_Workflow_Variants.tsv -w2 input_Second_Workflow_Variants.tsv -g 50000 -o output_Workflows_DockerHub_
 ```
 # Expected output
