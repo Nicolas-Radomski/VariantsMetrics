@@ -17,6 +17,7 @@ TP stands for true positive
 TN stands for true negative
 FP stands for false positive
 FN stands for false negative
+- stands for gap
 ```
 ## Behavior
 ```
