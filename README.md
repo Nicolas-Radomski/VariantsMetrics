@@ -22,7 +22,7 @@ FN stands for false negative
 ## Behavior
 ```
 The workflows flag missing data as "missing" and the undetected positions as "undetected".
-The users can also flag "missing" and "undefined" by themself.
+The users can also flag "missing" and "undetected" by themself.
 ```
 ## Controlled input variants
 ```
